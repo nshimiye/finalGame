@@ -56,6 +56,16 @@ public class BlockBuilder implements KeyListener, Runnable {
     private double percent, hiPercent = 0, marks = 0, wid = 140, hei = 120;
 
     //constructor
+    /**
+     * 
+     * @param nick
+     * @param upperLeft
+     * @param layers
+     * @param sound
+     * @param iceWidth
+     * @param iceHeight
+     * @param c 
+     */
     public BlockBuilder(String nick, Location upperLeft, int layers, boolean sound, double iceWidth, double iceHeight, DrawingCanvas c) {
          sound_on = sound;
 
