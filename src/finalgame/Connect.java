@@ -21,9 +21,9 @@ import java.sql.DriverManager;
 
            try
            {
-               String userName = "root";
-               String password = "From2to1";
-               String url = "jdbc:mysql://152.97.100.111/senyuragame";
+               String userName = "";
+               String password = "";
+               String url = "jdbc:mysql://111.111.111.111/senyuragame";
                Class.forName ("com.mysql.jdbc.Driver").newInstance ();
                conn = DriverManager.getConnection (url, userName, password);
                System.out.println ("Database connection established");
